@@ -1,17 +1,17 @@
 {
-  "name": "dyslexia",
+  "name": "Dsxyliea",
   "version": "1.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/akenn/dyslexia.git"
+    "url": "git://github.com/akenn/Dsxyliea.git"
   },
-  "description": "Jumble text to simulate reading with dyslexia",
+  "description": "Jumble text to simulate reading with Dsxyliea",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "dyslexia",
+    "Dsxyliea",
     "scramble"
   ],
   "author": "Andrew Kennedy <andrew@akenn.org>",

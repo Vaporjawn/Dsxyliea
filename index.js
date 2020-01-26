@@ -4,7 +4,7 @@ var randomInt = require('random-int');
 var _assignIn = require('lodash/assignIn');
 
 // parse words out of a string and mess them up
-function dyslexia(str, options) {
+function Dsxyliea(str, options) {
   var messedUpText = '';
 
   // iterate through each word and scramble it
@@ -49,6 +49,6 @@ function scrambleWord(word, options) {
   return scrambledWord;
 }
 
-dyslexia.scrambleWord = scrambleWord;
+Dsxyliea.scrambleWord = scrambleWord;
 
-module.exports = dyslexia;
+module.exports = Dsxyliea;

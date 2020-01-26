@@ -1,19 +1,19 @@
-# Dyslexia sj
+# Dsxyliea
 
-> Jumble text to simulate reading with dyslexia
+> Jumble text to simulate reading with Dsxyliea
 
 ## Usage
 
 ```js
-var dyslexia = require('dyslexia');
+var Dsxyliea = require('Dsxyliea');
 
-console.log(dyslexia("Sometimes I see things right to left and I know that's not right at all"));
+console.log(Dsxyliea("Sometimes I see things right to left and I know that's not right at all"));
 //=> Sitemomes I see thnigs right to lfet and I know that\'s not right at all
 
-console.log(dyslexia.scrambleWord("Wednesday"));
+console.log(Dsxyliea.scrambleWord("Wednesday"));
 //=> Wedsenday
 
-console.log(dyslexia("I'm not saying I invented the turtleneck, but I was the first person to realise its potential as a tactical garment.", {
+console.log(Dsxyliea("I'm not saying I invented the turtleneck, but I was the first person to realise its potential as a tactical garment.", {
   minWordLength: 2,
   scrambleChance: 80
 }));
@@ -23,13 +23,13 @@ console.log(dyslexia("I'm not saying I invented the turtleneck, but I was the fi
 ## Install
 
 ```
-$ npm install dyslexia
+$ npm install Dsxyliea
 ```
 
 
 ## API
 
-### `dyslexia(sentence, options)`
+### `Dsxyliea(sentence, options)`
 
 Returns a dyslexified sentence
 
@@ -53,7 +53,7 @@ Default: `100`
 
 Percentage chance out of `100` of a word being scrambled. `100` = will always be scrambled. `0` = never scrambled.
 
-### `dyslexia.scrambleWord(word)`
+### `Dsxyliea.scrambleWord(word)`
 
 Returns a dyslexified word
 
