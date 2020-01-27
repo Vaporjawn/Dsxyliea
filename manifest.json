@@ -1,0 +1,24 @@
+{
+	"name": "Dsxyliea",
+	"version": "1.0.0",
+	"homepage_url": "https://github.com/Vaporjawn/Dsxyliea",
+	"description": "A Chrome Extension that disorders your browser characters",
+	"icons": {"128" : "https://redditupvoted.files.wordpress.com/2016/03/istock_000026466320_large.jpg?w=600&h=315&crop=1",
+			  "48"  : "https://redditupvoted.files.wordpress.com/2016/03/istock_000026466320_large.jpg?w=600&h=315&crop=1",
+			  "32"  : "https://redditupvoted.files.wordpress.com/2016/03/istock_000026466320_large.jpg?w=600&h=315&crop=1",
+			  "16"  : "https://redditupvoted.files.wordpress.com/2016/03/istock_000026466320_large.jpg?w=600&h=315&crop=1"},
+
+	"browser_action": {
+		"default_icon": "https://redditupvoted.files.wordpress.com/2016/03/istock_000026466320_large.jpg?w=600&h=315&crop=1",
+		"default_title": "Jumble"
+	},
+	"permissions": [
+		"activeTab"
+		],
+	"background": {
+		"scripts": ["index.js", "background.js"],
+		"persistent": false
+	},
+	"manifest_version": 2
+
+}
