@@ -79,7 +79,4 @@ Default: `90`
 
 Percentage chance of a word being scrambled. `100` = will always be scrambled.
 
-
-## Acknowledgements
-
-- [Geon](https://github.com/geon)- Coming up with the idea and implementing it for his [blog post](http://geon.github.io/programming/2016/03/03/dsxyliea)
+## [My Site](https://vaporjawn.github.io/)
